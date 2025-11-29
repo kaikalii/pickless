@@ -1,1 +1,1 @@
-schedule function pickless:remove_pickaxes 1s
+schedule function pickless:remove_from_player 1s
