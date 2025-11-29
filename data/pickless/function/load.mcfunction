@@ -21,3 +21,4 @@ schedule function pickless:tick_replace_in_containers 1s
 schedule function pickless:tick_replace_in_entities 1s
 schedule function pickless:tick_replace_drops 1t
 schedule function pickless:tick_replace_trades 1s
+schedule function pickless:tick_clear_entity_tags 60s
