@@ -6,4 +6,4 @@ clear @a golden_pickaxe
 clear @a diamond_pickaxe
 clear @a netherite_pickaxe
 
-schedule function pickless:remove_from_player 1s
+schedule function pickless:tick_remove_from_player 1s
