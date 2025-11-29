@@ -31,4 +31,4 @@ execute at @s run function pickless:replace_in_container with storage pickless:v
 scoreboard players add @s pickless.scan 1
 
 # Continue if we haven't scanned all positions yet
-execute if score @s pickless.scan < #scan_total pickless.scan run function pickless:replace_current
+execute if score @s pickless.scan < #scan_total pickless.scan run function pickless:replace_in_offset
