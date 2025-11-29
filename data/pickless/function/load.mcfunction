@@ -1,10 +1,13 @@
+# Scan objective
 scoreboard objectives add pickless.scan dummy
+
+# Scan radius for containers
 scoreboard players set #scan_radius pickless.scan 3
 
 # Number literals
 scoreboard players set #-1 pickless.scan -1
-
 scoreboard players set #2 pickless.scan 2
+
 # Calculate scan_total = (2 * scan_radius + 1)^3
 scoreboard players operation #scan_diam pickless.scan = #scan_radius pickless.scan
 scoreboard players operation #scan_diam pickless.scan *= #2 pickless.scan
