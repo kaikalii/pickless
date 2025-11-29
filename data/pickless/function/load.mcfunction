@@ -16,7 +16,7 @@ scoreboard players operation #scan_total pickless.scan = #scan_diam pickless.sca
 scoreboard players operation #scan_total pickless.scan *= #scan_diam pickless.scan
 scoreboard players operation #scan_total pickless.scan *= #scan_diam pickless.scan
 
-schedule function pickless:tick_remove_from_player 1s
+schedule function pickless:tick_replace_in_player 1s
 schedule function pickless:tick_replace_in_containers 1s
 schedule function pickless:tick_replace_drops 1t
 schedule function pickless:tick_replace_trades 1s

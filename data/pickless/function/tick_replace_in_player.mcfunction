@@ -47,4 +47,4 @@ execute if score #random pickless.scan matches 0 as @a run clear @s netherite_pi
 execute if score #random pickless.scan matches 1 as @a[nbt={Inventory:[{id:"minecraft:netherite_pickaxe"}]}] run give @s netherite_shovel
 execute if score #random pickless.scan matches 1 as @a run clear @s netherite_pickaxe
 
-schedule function pickless:tick_remove_from_player 1s
+schedule function pickless:tick_replace_in_player 1s

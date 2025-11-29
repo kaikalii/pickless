@@ -1,14 +1,6 @@
 # Calculate total iterations needed: (2 * scan_radius + 1)^3
 # This function iterates through all positions in the scan area
 
-# Initialize x, y, z offsets to -scan_radius
-scoreboard players operation #x pickless.scan = #scan_radius pickless.scan
-scoreboard players operation #x pickless.scan *= #-1 pickless.scan
-scoreboard players operation #y pickless.scan = #scan_radius pickless.scan
-scoreboard players operation #y pickless.scan *= #-1 pickless.scan
-scoreboard players operation #z pickless.scan = #scan_radius pickless.scan
-scoreboard players operation #z pickless.scan *= #-1 pickless.scan
-
 # Derive x, y, and z from the scan counter
 # x = (scan % diam) + offset
 scoreboard players operation #x pickless.scan = @s pickless.scan
