@@ -26,7 +26,6 @@ execute store result storage pickless:vars z int 1 run scoreboard players get #z
 
 # Remove pickaxes from container at this offset
 execute at @s run function pickless:replace_in_container with storage pickless:vars
-execute at @s run function pickless:replace_in_entity with storage pickless:vars
 
 # Increment counter
 scoreboard players add @s pickless.scan 1
