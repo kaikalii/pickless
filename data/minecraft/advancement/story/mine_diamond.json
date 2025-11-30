@@ -1,49 +1,33 @@
 {
     "parent": "minecraft:story/smelt_iron",
-    "display": {
-        "title": {
-            "translate": "advancements.story.mine_diamond.title"
-        },
-        "description": {
-            "text": "Obtain diamonds"
-        },
-        "icon": {
-            "id": "minecraft:diamond"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true
-    },
     "criteria": {
-        "inventory": {
-            "trigger": "minecraft:inventory_changed",
+        "diamond": {
             "conditions": {
                 "items": [
                     {
-                        "items": [
-                            "minecraft:diamond"
-                        ]
+                        "items": "minecraft:diamond"
                     }
                 ]
-            }
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.story.mine_diamond.description"
         },
-        "pickup": {
-            "trigger": "minecraft:thrown_item_picked_up_by_player",
-            "conditions": {
-                "item": {
-                    "items": [
-                        "minecraft:diamond"
-                    ]
-                }
-            }
+        "icon": {
+            "count": 1,
+            "id": "minecraft:diamond"
+        },
+        "title": {
+            "translate": "advancements.story.mine_diamond.title"
         }
     },
     "requirements": [
         [
-            "inventory"
-        ],
-        [
-            "pickup"
+            "diamond"
         ]
-    ]
+    ],
+    "sends_telemetry_event": true
 }

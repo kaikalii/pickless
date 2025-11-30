@@ -1,33 +1,33 @@
 {
     "parent": "minecraft:story/root",
-    "display": {
-        "title": {
-            "translate": "advancements.story.mine_stone.title"
-        },
-        "description": {
-            "text": "Obtain cobblesone"
-        },
-        "icon": {
-            "id": "minecraft:cobblestone"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true
-    },
     "criteria": {
         "get_stone": {
-            "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": [
-                            "minecraft:cobblestone",
-                            "minecraft:blackstone",
-                            "minecraft:cobbled_deepslate"
-                        ]
+                        "items": "#minecraft:stone_tool_materials"
                     }
                 ]
-            }
+            },
+            "trigger": "minecraft:inventory_changed"
         }
-    }
+    },
+    "display": {
+        "description": {
+            "text": "Obtain cobblestone"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:cobblestone"
+        },
+        "title": {
+            "translate": "advancements.story.mine_stone.title"
+        }
+    },
+    "requirements": [
+        [
+            "get_stone"
+        ]
+    ],
+    "sends_telemetry_event": true
 }
