@@ -16,6 +16,15 @@ scoreboard players operation #scan_total pickless.scan = #scan_diam pickless.sca
 scoreboard players operation #scan_total pickless.scan *= #scan_diam pickless.scan
 scoreboard players operation #scan_total pickless.scan *= #scan_diam pickless.scan
 
+# Clear any lingering scheduled tasks on reload/start
+schedule clear pickless:tick_replace_in_player
+schedule clear pickless:tick_replace_in_containers
+schedule clear pickless:tick_replace_in_entities
+schedule clear pickless:tick_replace_drops
+schedule clear pickless:tick_replace_trades
+schedule clear pickless:tick_clear_entity_tags
+
+# Schedule
 schedule function pickless:tick_replace_in_player 1s
 schedule function pickless:tick_replace_in_containers 1s
 schedule function pickless:tick_replace_in_entities 1s
