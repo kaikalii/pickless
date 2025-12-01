@@ -7,4 +7,3 @@ $execute at @s run particle glow ~ ~ ~ 0.2 0.2 0.2 1 $(count)
 
 # Light
 $execute at @s run setblock ~ ~ ~ light[level=$(light)]
-
