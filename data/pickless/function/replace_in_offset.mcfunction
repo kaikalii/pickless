@@ -6,7 +6,7 @@
 scoreboard players operation #x pickless.scan = @s pickless.scan
 scoreboard players operation #x pickless.scan %= #scan_diam pickless.scan
 scoreboard players operation #temp pickless.scan = #scan_radius pickless.scan
-scoreboard players operation #temp pickless.scan *= #-1 pickless.scan
+scoreboard players operation #temp pickless.scan *= #-1 pickless.num
 scoreboard players operation #x pickless.scan += #temp pickless.scan
 # y = ((scan / diam) % diam) + offset
 scoreboard players operation #y pickless.scan = @s pickless.scan

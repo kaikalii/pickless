@@ -1,1 +1,5 @@
-execute unless entity @s[tag=broke_debris] if block ~ ~ ~ minecraft:ancient_debris run function pickless:diamond/break_debris
+# Find debris
+execute if block ~ ~ ~ ancient_debris run function pickless:diamond/near_debris
+
+# Clear adjacent light
+execute if score @s debris_timer > #0 pickless.num run execute if block ~ ~ ~ light run setblock ~ ~ ~ air
