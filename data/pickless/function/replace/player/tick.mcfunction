@@ -1,3 +1,3 @@
-# function pickless:for_each_material {function:"replace/player/material"}
+function pickless:for_each_material {f:"replace/player/material"}
 
 schedule function pickless:replace/player/tick 1s
