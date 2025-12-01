@@ -1,0 +1,1 @@
+execute unless entity @s[tag=broke_debris] if block ~ ~ ~ minecraft:ancient_debris run function pickless:diamond/break_debris
