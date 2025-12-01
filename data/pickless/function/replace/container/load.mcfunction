@@ -1,6 +1,5 @@
 # Scan objective
 scoreboard objectives add pickless.scan dummy
-scoreboard objectives add pickless.num dummy
 
 # Scan radius for containers
 scoreboard players set #scan_radius pickless.scan 3
