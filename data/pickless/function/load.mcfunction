@@ -23,7 +23,7 @@ schedule clear pickless:tick_replace_in_entities
 schedule clear pickless:tick_replace_drops
 schedule clear pickless:tick_replace_trades
 schedule clear pickless:tick_clear_entity_tags
-schedule clear pickless:tick_bonemeal_detect
+schedule clear pickless:bonemeal/tick_detect
 
 # Schedule
 schedule function pickless:tick_replace_in_player 1s
@@ -32,7 +32,7 @@ schedule function pickless:tick_replace_in_entities 1s
 schedule function pickless:tick_replace_drops 1t
 schedule function pickless:tick_replace_trades 1s
 schedule function pickless:tick_clear_entity_tags 60s
-schedule function pickless:tick_bonemeal_detect 1t
+schedule function pickless:bonemeal/tick_detect 1t
 
 # Bonemeal-used tracking
 scoreboard objectives add used_bonemeal minecraft.used:bone_meal
