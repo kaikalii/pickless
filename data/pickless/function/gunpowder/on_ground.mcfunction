@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ minecraft:fire run function pickless:gunpowder/explode
