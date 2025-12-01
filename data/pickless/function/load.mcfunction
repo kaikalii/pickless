@@ -32,15 +32,15 @@ scoreboard objectives add pickless.debris_timer dummy
 scoreboard players set #max pickless.debris_timer 60
 
 # Clear any lingering scheduled tasks on reload/start
-schedule clear pickless:tick_replace_in_player
-schedule clear pickless:tick_replace_in_containers
-schedule clear pickless:tick_replace_in_entities
-schedule clear pickless:tick_replace_trades
-schedule clear pickless:tick_clear_entity_tags
+schedule clear pickless:replace/player/tick
+schedule clear pickless:replace/container/tick
+schedule clear pickless:replace/entity/tick
+schedule clear pickless:replace/trade/tick
+schedule clear pickless:replace/entity/tick_clear_tags
 
 # Schedule
-schedule function pickless:tick_replace_in_player 1s
-schedule function pickless:tick_replace_in_containers 1s
-schedule function pickless:tick_replace_in_entities 1s
-schedule function pickless:tick_replace_trades 1s
-schedule function pickless:tick_clear_entity_tags 60s
+schedule function pickless:replace/player/tick 1s
+schedule function pickless:replace/container/tick 1s
+schedule function pickless:replace/entity/tick 1s
+schedule function pickless:replace/trade/tick 1s
+schedule function pickless:replace/entity/tick_clear_tags 60s

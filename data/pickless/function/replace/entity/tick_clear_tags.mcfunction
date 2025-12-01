@@ -2,4 +2,4 @@
 
 execute as @e[tag=pickless.processed] run tag @s remove pickless.processed
 
-schedule function pickless:tick_clear_entity_tags 60s
+schedule function pickless:replace/entity/tick_clear_tags 60s
