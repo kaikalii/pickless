@@ -6,7 +6,7 @@ scoreboard players set #scan_radius pickless.scan 3
 
 # Calculate scan_total = (2 * scan_radius + 1)^3
 scoreboard players operation #scan_diam pickless.scan = #scan_radius pickless.scan
-scoreboard players operation #scan_diam pickless.scan *= #2 pickless.num
+scoreboard players operation #scan_diam pickless.scan *= #2 num
 scoreboard players add #scan_diam pickless.scan 1
 scoreboard players operation #scan_total pickless.scan = #scan_diam pickless.scan
 scoreboard players operation #scan_total pickless.scan *= #scan_diam pickless.scan

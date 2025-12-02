@@ -1,5 +1,5 @@
 # Clear light
-execute if score @s pickless.debris_timer > #0 pickless.num run function pickless:diamond/clear_light
+execute if score @s pickless.debris_timer > #0 num run function pickless:diamond/clear_light
 # Init debris present flag
 scoreboard players set @s pickless.debris_present 0
 

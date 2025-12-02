@@ -7,7 +7,7 @@ execute as @a at @s if score @s pickless.y < @s pickless.last_y run scoreboard p
 execute as @a at @s if score @s pickless.y > @s pickless.last_y run scoreboard players set @s pickless.can_squish 0
 execute as @a at @s unless score @s pickless.x = @s pickless.last_x run scoreboard players set @s pickless.can_squish 0
 execute as @a at @s unless score @s pickless.z = @s pickless.last_z run scoreboard players set @s pickless.can_squish 0
-execute as @a at @s if score @s pickless.can_squish = #1 pickless.num if entity @s[nbt={OnGround:1b}] if block ~ ~-1 ~ amethyst_block if block ~ ~-2 ~ obsidian run function pickless:obsidian/try_squish
+execute as @a at @s if score @s pickless.can_squish = #1 num if entity @s[nbt={OnGround:1b}] if block ~ ~-1 ~ amethyst_block if block ~ ~-2 ~ obsidian run function pickless:obsidian/try_squish
 # Update last y
 execute as @a run scoreboard players operation @s pickless.last_x = @s pickless.x
 execute as @a run scoreboard players operation @s pickless.last_y = @s pickless.y

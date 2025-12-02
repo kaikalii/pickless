@@ -6,7 +6,8 @@ execute as @a at @s run function pickless:random_tick_player
 function pickless:for_each_material {f:"replace/dropped"}
 
 # Other features' tick functions
-function pickless:diamond/tick
 function pickless:bonemeal/tick
 function pickless:gunpowder/tick
+function pickless:iron/tick
 function pickless:obsidian/tick
+function pickless:diamond/tick
