@@ -8,4 +8,4 @@ function pickless:random_tick_at with storage pickless:tick
 
 # Next
 scoreboard players add @s pickless.tick_i 1
-execute if score @s pickless.tick_i < #150 pickless.num run function pickless:random_tick_player
+execute if score @s pickless.tick_i < #200 pickless.num run function pickless:random_tick_player

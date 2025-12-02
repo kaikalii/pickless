@@ -1,7 +1,7 @@
 # Pickless
-Pickless **completely removes pickaxes** from Minecraft, for a unique challenge.
+Pickless **completely removes pickaxes** from Minecraft, for a unique challenge. To compensate, it tweaks which blocks can be broken by which tools and adds many new systems to break certain blocks
 
-## Changes
+## Goodbye Pickaxes
 - All pick crafting recipes are removed.
 - Any pick items will automatically be randomly converted to either a shovel or axe of the same material and enchantments. Replacement occurs:
   - in players' inventories
@@ -11,12 +11,18 @@ Pickless **completely removes pickaxes** from Minecraft, for a unique challenge.
   - in villager trades
 - The two advancements that can only be obtained by getting a pick have been removed.
 
-## Progression
-Because picks are required to mine stone and ores, cobblestone, metals, and even the ability to smelt become much more difficult to obtain.
+# Progression
 
-Some options you have:
-- Use furnaces in villages
-- Use creepers or TNT to blow up stone and/or ores
-- Loot enough iron to craft a bucket so you can get to the nether
-- Barter with piglins for blackstone as a cobble replacement
-- Make an iron farm from villagers spawning iron golemns
+The added advancements are meant to guide you through the reworked progression. However, if you just want to see all the changes, expand the section below.
+<details>
+  <summary>Progression Spoiler!</summary>
+  <ul>
+    <li>Bonemeal on netherrack more easily spreads nylium for fast mining</li>
+    <li>Coal ore can be mined by lighting it on fire</li>
+    <li>Obsidian cycling
+    <ul>
+      <li>Quartz blocks near crying obsidian absorb the purple energy, converting to normal obsidian and dropping amethyst</li>
+      <li>Amethyst above obsidian can be jumped on to push the purple energy into the obsian, breaking them into crying obsidian and quartz</li>
+    </li>
+    <li>Raw diamonds react violently with ancient debris</li>
+</details>
