@@ -1,0 +1,14 @@
+- Gunpowerder recipes
+- Mining:
+  - Copper
+  - Gold
+  - Diamond
+  - Lapis
+  - Redstone
+  - Emerald
+  - Quartz
+  - Amethyst
+- Horizontal stone mining
+- Advancements:
+  - Guidance
+  - Recipes
