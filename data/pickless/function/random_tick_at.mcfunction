@@ -1,0 +1,1 @@
+$execute positioned ~$(x) ~$(y) ~$(z) run function pickless:random_tick
