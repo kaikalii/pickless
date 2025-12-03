@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "using_item": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:bowl"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pickless:gold/use_bowl"
+    }
+}

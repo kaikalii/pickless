@@ -1,6 +1,5 @@
 - Mining:
   - Copper
-  - Gold
   - Diamond
   - Lapis
   - Redstone
