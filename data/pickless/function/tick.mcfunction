@@ -7,7 +7,6 @@ function pickless:for_each_material {f:"replace/dropped"}
 
 # Other features' tick functions
 function pickless:bonemeal/tick
-function pickless:gunpowder/tick
 function pickless:iron/tick
 function pickless:obsidian/tick
 function pickless:diamond/tick
