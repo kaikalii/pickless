@@ -1,4 +1,3 @@
-- Gunpowerder recipes
 - Mining:
   - Copper
   - Gold
