@@ -1,4 +1,4 @@
-tellraw @a {text:"Loaded Pickless"}
+# tellraw @a {text:"Loaded Pickless"}
 # Number literals
 scoreboard objectives add num dummy
 scoreboard players set #-1 num -1

@@ -19,6 +19,8 @@ The added advancements are meant to guide you through the reworked progression. 
   <ul>
     <li>Bonemeal on netherrack more easily spreads nylium for fast mining</li>
     <li>Coal ore can be mined by lighting it on fire</li>
+    <li>Iron ore can be mined by putting gunpowder near it</li>
+    <li>Gold ore can be mined by running water over it and panning with a bowl</li>
     <li>Obsidian cycling
     <ul>
       <li>Quartz blocks near crying obsidian absorb the purple energy, converting to normal obsidian and dropping amethyst</li>

@@ -1,1 +1,1 @@
-execute if block ~ ~ ~ #gold_ores if block ~ ~1 ~ water run function pickless:gold/panning
+execute if block ~ ~ ~ #gold_ores if block ~ ~1 ~ water run return run function pickless:gold/panning

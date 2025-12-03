@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": "#minecraft:planks"
+    },
+    "pattern": [
+        "# #",
+        " # "
+    ],
+    "result": {
+        "count": 4,
+        "id": "minecraft:bowl",
+        "components": {
+            "consumable": {
+                "consume_seconds": 100,
+                "has_consume_particles": false,
+                "animation": "brush"
+            }
+        }
+    }
+}
