@@ -14,4 +14,4 @@ scoreboard players operation #light pickless.debris_timer *= #16 num
 scoreboard players operation #light pickless.debris_timer /= #max pickless.debris_timer
 execute store result storage pickless:tick_diamond light int 1 run scoreboard players get #light pickless.debris_timer
 
-function pickless:diamond/tick_effect with storage pickless:tick_diamond
+function pickless:debris/tick_effect with storage pickless:tick_diamond

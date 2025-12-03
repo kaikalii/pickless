@@ -10,6 +10,6 @@ function pickless:bonemeal/tick
 function pickless:iron/tick
 function pickless:gold/tick
 function pickless:obsidian/tick
-function pickless:diamond/tick
+function pickless:debris/tick
 
 # execute as @a at @s positioned ~ ~1.62 ~ positioned ^ ^ ^5 run particle electric_spark

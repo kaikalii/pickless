@@ -32,6 +32,6 @@ scoreboard objectives add posZ dummy
 
 # Load
 function pickless:bonemeal/load
-function pickless:diamond/load
+function pickless:debris/load
 function pickless:replace/load
 function pickless:obsidian/load
