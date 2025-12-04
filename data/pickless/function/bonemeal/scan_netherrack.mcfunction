@@ -1,0 +1,2 @@
+function pickless:hitscan {f:"if block ~ ~ ~ #pickless:netherrack_stony run return run function pickless:bonemeal/expand_nylium {nylium:\"warped\"}"}
+function pickless:hitscan {f:"if block ~ ~ ~ #pickless:netherrack_stony run return run function pickless:bonemeal/expand_nylium {nylium:\"crimson\"}"}

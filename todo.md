@@ -6,6 +6,7 @@
   - Emerald
   - Quartz
   - Amethyst
+  - Stone
 - Horizontal stone mining
 - Advancements:
   - Guidance
