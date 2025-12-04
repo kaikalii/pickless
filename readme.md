@@ -21,6 +21,7 @@ The added advancements are meant to guide you through the reworked progression. 
     <li>Coal ore can be mined by lighting it on fire</li>
     <li>Iron ore can be mined by putting gunpowder near it</li>
     <li>Gold ore can be mined by running water over it and panning with a bowl</li>
+    <li>Nearby lapis ore absorbs experience and breaks when in proximity to a player with enough levels</li>
     <li>Raw diamonds react violently with ancient debris</li>
     <li>Amethyst blocks can be broken by jumping on them a few times</li>
     <li>Obsidian cycling

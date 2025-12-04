@@ -4,6 +4,7 @@
         "water",
         "torch",
         "wall_torch",
-        "soul_torch"
+        "soul_torch",
+        "redstone_torch"
     ]
 }

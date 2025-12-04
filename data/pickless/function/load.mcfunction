@@ -16,6 +16,8 @@ scoreboard players set #10 num 10
 scoreboard players set #15 num 15
 scoreboard players set #16 num 16
 scoreboard players set #20 num 20
+scoreboard players set #40 num 40
+scoreboard players set #50 num 50
 scoreboard players set #80 num 80
 scoreboard players set #90 num 90
 scoreboard players set #100 num 100
@@ -35,3 +37,4 @@ function pickless:bonemeal/load
 function pickless:debris/load
 function pickless:replace/load
 function pickless:obsidian/load
+function pickless:lapis/load

@@ -1,7 +1,6 @@
 - Mining:
   - Copper
   - Diamond
-  - Lapis
   - Redstone
   - Emerald
   - Stone
