@@ -17,6 +17,7 @@ function pickless:bonemeal/tick
 function pickless:iron/tick
 function pickless:gold/tick
 function pickless:lapis/tick
+function pickless:dripstone/tick
 function pickless:obsidian/tick
 function pickless:debris/tick
 

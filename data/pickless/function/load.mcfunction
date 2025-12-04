@@ -46,3 +46,4 @@ function pickless:debris/load
 function pickless:replace/load
 function pickless:obsidian/load
 function pickless:lapis/load
+function pickless:dripstone/load

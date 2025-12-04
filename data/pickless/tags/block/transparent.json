@@ -2,9 +2,11 @@
     "values": [
         "air",
         "water",
-        "torch",
+        "lava",
         "wall_torch",
-        "soul_torch",
-        "redstone_torch"
+        "piston_head",
+        "pointed_dripstone",
+        "#wall_post_override",
+        "#small_flowers"
     ]
 }

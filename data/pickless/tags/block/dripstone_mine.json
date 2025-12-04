@@ -1,0 +1,19 @@
+{
+    "values": [
+        "stone",
+        "dirt",
+        "gravel",
+        "diorite",
+        "andesite",
+        "granite",
+        "tuff",
+        "deepslate",
+        "sandstone",
+        "dripstone_block",
+        "pointed_dripstone",
+        "moss_block",
+        "moss_carpet",
+        "clay",
+        "#redstone_ores"
+    ]
+}
