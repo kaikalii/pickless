@@ -21,10 +21,11 @@ The added advancements are meant to guide you through the reworked progression. 
     <li>Coal ore can be mined by lighting it on fire</li>
     <li>Iron ore can be mined by putting gunpowder near it</li>
     <li>Gold ore can be mined by running water over it and panning with a bowl</li>
+    <li>Raw diamonds react violently with ancient debris</li>
+    <li>Amethyst blocks can be broken by jumping on them a few times</li>
     <li>Obsidian cycling
     <ul>
       <li>Quartz blocks near crying obsidian absorb the purple energy, converting to normal obsidian and dropping amethyst</li>
       <li>Amethyst above obsidian can be jumped on to push the purple energy into the obsian, breaking them into crying obsidian and quartz</li>
     </li>
-    <li>Raw diamonds react violently with ancient debris</li>
 </details>

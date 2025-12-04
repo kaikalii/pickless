@@ -4,8 +4,6 @@
   - Lapis
   - Redstone
   - Emerald
-  - Quartz
-  - Amethyst
   - Stone
 - Horizontal stone mining
 - Advancements:
