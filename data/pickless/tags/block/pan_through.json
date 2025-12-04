@@ -1,6 +1,9 @@
 {
     "values": [
-        "minecraft:air",
-        "minecraft:water"
+        "air",
+        "water",
+        "torch",
+        "wall_torch",
+        "soul_torch"
     ]
 }
