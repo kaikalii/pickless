@@ -3,8 +3,13 @@ scoreboard players set @a pickless.tick_i 0
 execute as @a at @s run function pickless:random_tick_player
 
 # Scan
-scoreboard players set #curr pickless.scan 0
-function pickless:scan_iter
+scoreboard players set #x pickless.scan 0
+execute if score #x_mode pickless.scan = #0 num run scoreboard players operation #x pickless.scan -= #scan_radius pickless.scan
+execute if score #x_mode pickless.scan = #0 num run function pickless:scan_x {cond:"< #0 num"}
+execute if score #x_mode pickless.scan = #1 num run function pickless:scan_x {cond:"<= #scan_radius pickless.scan"}
+scoreboard players operation #temp num = #1 num
+scoreboard players operation #temp num -= #x_mode pickless.scan
+scoreboard players operation #x_mode pickless.scan = #temp num
 
 # Replace pickaxes
 function pickless:replace/tick

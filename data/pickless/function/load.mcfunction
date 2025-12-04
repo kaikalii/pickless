@@ -27,24 +27,18 @@ scoreboard players set #200 num 200
 # Random ticking
 scoreboard objectives add pickless.tick_i dummy
 
-# Scan objective
+# Scanning
 scoreboard objectives add pickless.scan dummy
-
-# Scan radius
-scoreboard players set #scan_radius pickless.scan 3
-
-# Calculate scan_total = (2 * scan_radius + 1)^3
-scoreboard players operation #scan_diam pickless.scan = #scan_radius pickless.scan
-scoreboard players operation #scan_diam pickless.scan *= #2 num
-scoreboard players add #scan_diam pickless.scan 1
-scoreboard players operation #scan_total pickless.scan = #scan_diam pickless.scan
-scoreboard players operation #scan_total pickless.scan *= #scan_diam pickless.scan
-scoreboard players operation #scan_total pickless.scan *= #scan_diam pickless.scan
+scoreboard players set #x_mode pickless.scan 0
+function pickless:set_scan_radius {radius:4}
 
 # Debugging
 scoreboard objectives add posX dummy
 scoreboard objectives add posY dummy
 scoreboard objectives add posZ dummy
+
+# Block update
+scoreboard objectives add pickless.block dummy
 
 # Load
 function pickless:bonemeal/load
