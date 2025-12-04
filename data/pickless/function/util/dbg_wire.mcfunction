@@ -1,0 +1,25 @@
+execute if block ~ ~ ~ redstone_wire[north=side] run tellraw @s {text:"north"}
+execute if block ~ ~ ~ redstone_wire[north=up] run tellraw @s {text:"north up"}
+execute if block ~ ~ ~ redstone_wire[east=side] run tellraw @s {text:"east"}
+execute if block ~ ~ ~ redstone_wire[east=up] run tellraw @s {text:"east up"}
+execute if block ~ ~ ~ redstone_wire[south=side] run tellraw @s {text:"south"}
+execute if block ~ ~ ~ redstone_wire[south=up] run tellraw @s {text:"south up"}
+execute if block ~ ~ ~ redstone_wire[west=side] run tellraw @s {text:"west"}
+execute if block ~ ~ ~ redstone_wire[west=up] run tellraw @s {text:"west up"}
+
+execute if block ~ ~ ~ redstone_wire[power=0] run tellraw @s {text:"power 0"}
+execute if block ~ ~ ~ redstone_wire[power=1] run tellraw @s {text:"power 1"}
+execute if block ~ ~ ~ redstone_wire[power=2] run tellraw @s {text:"power 2"}
+execute if block ~ ~ ~ redstone_wire[power=3] run tellraw @s {text:"power 3"}
+execute if block ~ ~ ~ redstone_wire[power=4] run tellraw @s {text:"power 4"}
+execute if block ~ ~ ~ redstone_wire[power=5] run tellraw @s {text:"power 5"}
+execute if block ~ ~ ~ redstone_wire[power=6] run tellraw @s {text:"power 6"}
+execute if block ~ ~ ~ redstone_wire[power=7] run tellraw @s {text:"power 7"}
+execute if block ~ ~ ~ redstone_wire[power=8] run tellraw @s {text:"power 8"}
+execute if block ~ ~ ~ redstone_wire[power=9] run tellraw @s {text:"power 9"}
+execute if block ~ ~ ~ redstone_wire[power=10] run tellraw @s {text:"power 10"}
+execute if block ~ ~ ~ redstone_wire[power=11] run tellraw @s {text:"power 11"}
+execute if block ~ ~ ~ redstone_wire[power=12] run tellraw @s {text:"power 12"}
+execute if block ~ ~ ~ redstone_wire[power=13] run tellraw @s {text:"power 13"}
+execute if block ~ ~ ~ redstone_wire[power=14] run tellraw @s {text:"power 14"}
+execute if block ~ ~ ~ redstone_wire[power=15] run tellraw @s {text:"power 15"}

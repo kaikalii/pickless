@@ -2,10 +2,12 @@
 scoreboard players set @a pickless.tick_i 0
 execute as @a at @s run function pickless:random_tick_player
 
-# Replace pickaxe item entities on the ground with random tools
-function pickless:util/for_each_material {f:"replace/dropped"}
+# Scan
+scoreboard players set #curr pickless.scan 0
+function pickless:scan_iter
 
-# Other features' tick functions
+# Replace pickaxes
+function pickless:replace/tick
 function pickless:bonemeal/tick
 function pickless:iron/tick
 function pickless:gold/tick
