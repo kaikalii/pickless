@@ -1,8 +1,8 @@
 - Mining:
   - Diamond
-  - Redstone
   - Emerald
-  - Stone
+- Mining with lapis
+- Cobblestone byproducts
 - Horizontal stone mining
 - Advancements:
   - Guidance
