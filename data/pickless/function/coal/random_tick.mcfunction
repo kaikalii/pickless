@@ -1,1 +1,0 @@
-execute if block ~ ~ ~ #coal_ores run function pickless:coal/ore

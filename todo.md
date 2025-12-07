@@ -1,7 +1,6 @@
 - Mining:
   - Diamond
   - Emerald
-- Mining with lapis
 - Cobblestone byproducts
 - Advancements:
   - Guidance
