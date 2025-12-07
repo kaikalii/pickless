@@ -15,6 +15,7 @@ scoreboard players operation #x_mode pickless.scan = #temp num
 function pickless:replace/tick
 function pickless:bonemeal/tick
 function pickless:drop/tick
+function pickless:coal/tick
 function pickless:iron/tick
 function pickless:gold/tick
 function pickless:lapis/tick
