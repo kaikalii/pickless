@@ -1,6 +1,6 @@
 # Random tick
 scoreboard players set @a pickless.tick_i 0
-execute as @a at @s run function pickless:random_tick_player
+# execute as @a at @s run function pickless:random_tick_player
 
 # Scan
 scoreboard players set #x pickless.scan 0
@@ -15,12 +15,6 @@ scoreboard players operation #x_mode pickless.scan = #temp num
 function pickless:replace/tick
 function pickless:bonemeal/tick
 function pickless:drop/tick
-function pickless:coal/tick
-function pickless:iron/tick
-function pickless:gold/tick
-function pickless:lapis/tick
-function pickless:dripstone/tick
-function pickless:obsidian/tick
 function pickless:debris/tick
 
 # execute as @a at @s positioned ~ ~1.62 ~ positioned ^-0.35 ^ ^0.25 run particle electric_spark

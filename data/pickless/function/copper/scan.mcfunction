@@ -1,2 +1,0 @@
-execute if block ~ ~ ~ copper_ore run return run function pickless:copper/ore {ore:copper_ore}
-execute if block ~ ~ ~ deepslate_copper_ore run return run function pickless:copper/ore {ore:deepslate_copper_ore}

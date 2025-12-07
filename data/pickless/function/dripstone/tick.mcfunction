@@ -1,2 +1,0 @@
-execute as @e[type=falling_block,nbt={BlockState:{Name:"minecraft:pointed_dripstone"}}] at @s run function pickless:dripstone/falling
-execute as @e[type=item,nbt={Item:{id:"minecraft:pointed_dripstone"}}] at @s if block ~ ~ ~ air if block ~ ~-1 ~ #pickless:transparent unless block ~ ~1 ~ #pickless:transparent run function pickless:dripstone/stick

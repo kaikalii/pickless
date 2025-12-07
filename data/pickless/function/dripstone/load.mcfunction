@@ -1,1 +1,0 @@
-scoreboard objectives add pickless.dripstone_charge dummy

@@ -1,1 +1,0 @@
-execute unless block ~1 ~ ~ quartz_block unless block ~-1 ~ ~ quartz_block unless block ~ ~-1 ~ quartz_block unless block ~ ~ ~1 quartz_block unless block ~ ~ ~-1 quartz_block run function pickless:obsidian/obsidian_absorb
