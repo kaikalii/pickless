@@ -6,3 +6,4 @@ scoreboard objectives add pickless.levels dummy
 execute as @a store result score @s pickless.levels run xp query @s levels
 
 scoreboard objectives add pickless.neary_lapis dummy
+scoreboard objectives add pickless.lapis_mined dummy

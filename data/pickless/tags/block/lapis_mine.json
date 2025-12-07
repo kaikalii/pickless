@@ -1,0 +1,12 @@
+{
+    "values": [
+        "stone",
+        "dirt",
+        "gravel",
+        "deepslate",
+        "diorite",
+        "andesite",
+        "granite",
+        "tuff"
+    ]
+}
